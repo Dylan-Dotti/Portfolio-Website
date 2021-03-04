@@ -1,0 +1,32 @@
+nav {
+  //background-color: #404040;
+  background-color: #121212;
+  border: var(--primaryColor) 5px solid;
+  border-radius: 20px;
+  margin: 15px 0px;
+}
+
+.navbar-brand {
+  text-align: center;
+  color: var(--primaryColor);
+}
+
+.navbar-brand > h2 {
+  font-weight: bolder;
+}
+
+.nav-link {
+  padding: 5px;
+  margin: 10px;
+}
+
+a {
+  color: var(--primaryColor);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.35s;
+}
+
+a:hover {
+  color: darkcyan;
+}
