@@ -5,10 +5,10 @@
 }
 
 @keyframes fadeIn {
-  0% {
+  from {
     opacity: 0%;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
@@ -16,6 +16,10 @@
 * {
   padding: 0px;
   margin: 0px;
+}
+
+a {
+  outline: 0;
 }
 
 body {
@@ -27,12 +31,9 @@ body {
   background-color: #121212;
   border: var(--primaryColor) 3px solid;
   border-radius: 20px;
-}
-
-.content-panel-content {
-  padding: 10px;
+  padding: 10px 15px;
 }
 
 .fade-in {
-  animation: fadeIn linear 0.5s;
+  animation: fadeIn linear 0.4s;
 }
