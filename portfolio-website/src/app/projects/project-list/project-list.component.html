@@ -1,1 +1,6 @@
-project-list works!
+<div class="project-list fade-in">
+  <app-project-list-item
+  *ngFor="let project of projects"
+  [project]="project">
+  </app-project-list-item>
+</div>

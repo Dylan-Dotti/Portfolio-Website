@@ -1,0 +1,48 @@
+.content-panel {
+  border: var(--primaryColor) 3px solid;
+  clear: both;
+  //margin-bottom: 10px;
+  padding: 0px;
+  transition: 0.4s;
+  display: grid;
+  grid-template-columns: 100px auto;
+  column-gap: 10px;
+  position: relative;
+  height: 80px;
+}
+
+.content-panel:hover {
+  border-color: var(--highlightColor);
+  scale: 102%;
+}
+
+.content-panel:hover > img {
+  border-color: var(--highlightColor);
+}
+
+img {
+  //float: left;
+  height: 100%;
+  width: 100px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-right: var(--primaryColor) 3px solid;
+  transition: 0.4s;
+}
+
+#project-name {
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+#project-description {
+  font-size: 10.5pt;
+}
+
+.text-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 110px;
+}

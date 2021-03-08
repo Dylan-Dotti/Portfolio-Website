@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
   //--primaryColor: rgb(45, 49, 63);
+  --darkBackground: #121212;
   --primaryColor: #3f6ac2;
+  --highlightColor: #6ccce4;
 }
 
 @keyframes fadeIn {
@@ -30,8 +32,8 @@ body {
 .content-panel {
   background-color: #121212;
   border: var(--primaryColor) 3px solid;
-  border-radius: 20px;
-  padding: 10px 15px;
+  border-radius: 15px;
+  padding: 15px;
 }
 
 .fade-in {
